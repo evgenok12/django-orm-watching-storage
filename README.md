@@ -18,7 +18,7 @@ pip install -r requirements.txt
 - NAME
 - USER
 - PASSWORD
-- SECRET_KEY
+- SECRET_KEY=REPLACE_ME
 - DEBUG=False
 - ALLOWED_HOSTS=localhost
 
@@ -35,7 +35,7 @@ PORT=1234
 NAME=db123
 USER=user123
 PASSWORD=abc123
-SECRET_KEY=key123
+SECRET_KEY=REPLACE_ME
 DEBUG=False
 ALLOWED_HOSTS=localhost
 ```
