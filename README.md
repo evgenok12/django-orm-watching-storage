@@ -12,12 +12,12 @@ pip install -r requirements.txt
 ```
 
 ### Переменные окружения
-- ENGINE
-- HOST
-- PORT
-- NAME
-- USER
-- PASSWORD
+- DB_ENGINE
+- DB_HOST
+- DB_PORT
+- DB_NAME
+- DB_USER
+- DB_PASSWORD
 - SECRET_KEY=REPLACE_ME
 - DEBUG=False
 - ALLOWED_HOSTS=localhost
@@ -29,12 +29,12 @@ pip install -r requirements.txt
 
 ```bash
 $ cat .env
-ENGINE=db.123
-HOST=/db123
-PORT=1234
-NAME=db123
-USER=user123
-PASSWORD=abc123
+DB_ENGINE=db.123
+DB_HOST=/db123
+DB_PORT=1234
+DB_NAME=db123
+DB_USER=user123
+DB_PASSWORD=abc123
 SECRET_KEY=REPLACE_ME
 DEBUG=False
 ALLOWED_HOSTS=localhost
